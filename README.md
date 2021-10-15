@@ -10,24 +10,24 @@ Frank's tables were given for a rule that has since been updated, and so aren't 
 accurate as they once were.  This is because Vancouver mulligan is no longer in effect, and we use the London mulligan here, i.e.,
 
 London Mulligan Rules:
--Initial draw 7 cards.
--Decide to mulligan or not.
--If mulligan:
--Shuffle the hand back in the deck and draw a new 7 card hand.
--Decide to mulligan or not.
--If not:
--Put 1 on the bottom of the deck, and begin the game with 6 cards.
--If mulligan:
--Shuffle the hand back in the deck and draw a new 7 card hand.
--Decide to mulligan or not.
--If not:
--Put 2 on the bottom of the deck, and begin the game with 5 cards.
--If mulligan:
--Shuffle the hand back in the deck and draw a new 7 card hand.
--Decide to mulligan or not:
--If not:
--Put 3 on the bottom of the deck, and begin the game with 4 cards.
--Mulliganning again is ignored, since if we mulligan again the odds of winning are so slim, so the odds casting a card on curve are irrelevant.
+- Initial draw 7 cards.
+- Decide to mulligan or not.
+- If mulligan:
+- Shuffle the hand back in the deck and draw a new 7 card hand.
+- Decide to mulligan or not.
+- If not:
+- Put 1 on the bottom of the deck, and begin the game with 6 cards.
+- If mulligan:
+- Shuffle the hand back in the deck and draw a new 7 card hand.
+- Decide to mulligan or not.
+- If not:
+- Put 2 on the bottom of the deck, and begin the game with 5 cards.
+- If mulligan:
+- Shuffle the hand back in the deck and draw a new 7 card hand.
+- Decide to mulligan or not:
+- If not:
+- Put 3 on the bottom of the deck, and begin the game with 4 cards.
+- Mulliganning again is ignored, since if we mulligan again the odds of winning are so slim, so the odds casting a card on curve are irrelevant.
 
 I've updated the methodology using the above definitions of the London mulligan, and translated the program from Java to Python.
 
@@ -51,11 +51,11 @@ In __main__.py, there are 5 variables to to modify the probabilities:
 These depend on the card you have in mind to run a probability analysis on
 the odds of casting the card on curve.
 
--TOTAL - The total number of cards in your starting deck.
--LANDS - The total number of lands in your starting deck.
--GOOD_LANDS - The total number of lands producing the color of mana of needed.
--CASTING_TURN - The turn (i.e., the CMC) you wish to cast the card.
-CASTING_PIPS - The number (up to multiplicity) of colors needed to cast the desired card.
+- TOTAL - The total number of cards in your starting deck.
+- LANDS - The total number of lands in your starting deck.
+- GOOD_LANDS - The total number of lands producing the color of mana of needed.
+- CASTING_TURN - The turn (i.e., the CMC) you wish to cast the card.
+- CASTING_PIPS - The number (up to multiplicity) of colors needed to cast the desired card.
 
 Examples:
 Ex1:
