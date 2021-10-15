@@ -2,8 +2,8 @@
 
 # mtgMana program for calculating probabilities for deck construction.
 
-from mtgmFunctions import *
-from mtgmClasses import *
+from mtgmFunctions import truncate
+from mtgmClasses import Deck
 
 # Configuration
 
