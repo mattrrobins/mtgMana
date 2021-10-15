@@ -65,9 +65,13 @@ Suppose we have a standard constructed deck of 60 total cards, 26 total lands, a
 Then we have a configuration of the following
 
 TOTAL = 60
+
 LANDS = 26
+
 GOOD_LANDS = 16
+
 CASTING_TURN = 4
+
 CASTING_PIPS = 2
 
 This yields a probability of 92.39% chance of casting Wrath of God on curve.
