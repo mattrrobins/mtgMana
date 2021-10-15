@@ -5,13 +5,13 @@
 from mtgmFunctions import *
 from mtgmClasses import *
 
-# Preamble
+# Configuration
 
 TOTAL = 60
-LANDS = 24
-GOOD_LANDS = 11
-CASTING_TURN = 3
-CASTING_PIPS = 1
+LANDS = 26
+GOOD_LANDS = 16
+CASTING_TURN = 4
+CASTING_PIPS = 2
 
 # Begin program loop
 
